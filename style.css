@@ -1,0 +1,95 @@
+:root {
+  --font-color: hsl(0, 0%, 100%);
+  --hover-color: hsl(75, 94%, 57%);
+  --social-meida-bg-color: hsl(0, 0%, 20%);
+  --card-bg-color: hsl(0, 0%, 12%);
+  --body-bg-color: hsl(0, 0%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: var(--font-color);
+  font-family: Inter, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body-bg-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p,
+a {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  font-weight: 700;
+  display: block;
+  padding: 14px 0;
+  background-color: var(--social-meida-bg-color);
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+a:hover {
+  background-color: var(--hover-color);
+}
+
+.card {
+  width: 100%;
+  max-width: 330px;
+  text-align: center;
+  margin: 0 1.5rem;
+  padding: 30px;
+  border-radius: 0.5rem;
+  background-color: var(--card-bg-color);
+}
+
+.card-profile {
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.card-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.card-address {
+  color: var(--hover-color);
+  font-weight: 600;
+  margin: 0 0 1.5rem;
+}
+
+.card-description {
+  opacity: 0.5;
+  margin: 0 0 1.25rem;
+}
+
+.card-social-media-links li {
+  margin: 0.75rem 0;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+}
