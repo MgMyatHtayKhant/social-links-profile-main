@@ -26,8 +26,8 @@ This is my third project. I love it. This project is similar to previous two pro
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/MgMyatHtayKhant/social-links-profile-main)
-- Live Site URL: [Add live site URL here](https://frontend-social-links.netlify.app/)
+- Solution URL: [Solution URL here](https://github.com/MgMyatHtayKhant/social-links-profile-main)
+- Live Site URL: [Live site URL here](https://frontend-social-links.netlify.app/)
 
 ## My process
 
@@ -54,7 +54,7 @@ I learned how to use links with unorderlist. It so much each to style it.
 ## Author
 
 - Website - [Saul](https://saul-homepage.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Saul](https://www.frontendmentor.io/profile/MgMyatHtayKhant)
 
 ## Acknowledgments
 
